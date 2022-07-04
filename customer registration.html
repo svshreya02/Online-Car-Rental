@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Car Rental System</title>
+	<link rel="stylesheet" type="text/css" href="styles/Home_styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	<link rel="stylesheet" type="text/css" href="styles/stylesss.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap">
+	<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
+
+
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<script src="js/JavaScript.js"></script>
+
+</head>
+
+
+<header>
+	<center>
+		 <h1 class="monospace"><b>Car Rental Chennai</b></h1>
+	</center>
+	<ul class="menu">
+		 <li class="menu"><a href="index.html"><i class="fa fa-home" id="nav-image"></i>Home</a></li>
+		 <li class="menu"><a href="about us.html"><i class="fa fa-user" id="nav-image"></i>About Us</a></li>
+		 
+		 <li class="menu"><a href="contactUs.html"><i class="fa fa-phone" id="nav-image"></i>Contact Us</a>
+		 </li>
+		 <li class="menu"><a href="Login_customer.php"><i id="nav-image"></i>LOGIN</a></li>
+		
+	</ul>
+	<!-- <p style="position: relative; text-align:right; width:111%; font-size:18px"><a href="loginAs.html" style="text-decoration:none">LOG IN </a> | <a href="register.html" style="text-decoration:none">REGISTER</a></p> -->
+</header>
+</div>
+</div>
+<body style="background-color:#F2F1EF">
+	<div>
+		<center>
+			<br>
+			<div class="regform">
+				<h1>Registration Form</h1>
+			</div>
+			<div class="form">
+
+				<form action="signup_customer.php" target="_self" method="POST" onsubmit="return checkPassword()">
+
+
+					<p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
+							style="display: none; float: right"></p>
+					<img style="float:center" id="output" width="200" /><br><br>
+					<button class="btnUpload" class="up1"><label for="file"
+							style="font-size: 20px; cursor: pointer; text-align:right">Upload Profile
+							Picture</label></button><br><br>
+
+
+					<div id="name">
+						<label for="fname" id="formalign">First name:</label><br>
+						<input type="text" id="fname" name="fname" style="width:500px" placeholder="First Name"
+							required>
+						<br><br>
+
+						<label for="lname" id="formalign">Last name:</label><br>
+						<input type="text" id="lname" name="lname" style="width:500px" placeholder="Last Name" required>
+						<br><br>
+
+						<label for="phone" id="formalign">Mobile number:</label><br>
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" style="width:500px"
+							placeholder="Phone number" required>
+						<br><br>
+
+						<label for="email" id="formalign">Email Address:</label><br>
+						<input type="email" id="email" name="email" style="width:500px"
+							pattern="[a-zA-Z0-9._%+-]+@[a-z]+.[a-z]{2,4}" placeholder="E mail" required>
+						<br><br>
+
+						<label for="addr" id="formalign">Address:</label><br>
+						<textarea id="addr" name="addr" rows="10" cols="50" style="width:500px" placeholder="Address"
+							required></textarea>
+						<br><br>
+
+						<label for="dob" id="formalign">Date of Birth:</label><br>
+						<input type="date" id="dob" name="dob">
+						<br><br>
+
+						<label for="pwd" id="formalign">Password</label><br>
+						<input type="password" id="pwd" name="pwd" style="width:500px" placeholder="Create Password"
+							required>
+						<br><br>
+
+						<label for="pwd" id="formalign">Re-enter Password</label><br>
+						<input type="password" id="rpwd" name="rpwd" style="width:500px" placeholder="Confirm Password"
+							required>
+						<br><br>
+
+						<label for="policy" id="formalign">Accept privacy policy terms:</label>
+						<input type="checkbox" id="policy" name="policy" required onclick="enableButton()">
+						<br><br>
+
+
+						<input type="submit" id="btn1" name="btn1" value="Register Now" disabled>
+						<input type="reset" id="btn2" name="btn2" value="Reset">
+
+
+					</div>
+
+				</form>
+
+			</div>
+
+		</center>
+		<br>
+	</div>
+
+</body>
+
+
+<!-- Footer -->
+<footer style="background-color:#413F3D; width:100%; height:200px; padding-top:2px">
+	<div class="main-content">
+		 <div class="left box1">
+			  <P>Car Rental Chennai</P>
+			  
+		 </div>
+
+		 <div class="left box2">
+			  <h5 class="foot"><a href="about us.html">ABOUT US</a></h5>
+			  <h5 class="foot"><a href="contactUs.html">CONTACT US</a></h5>
+			  
+		 </div>
+
+		
+
+		 <div class="right box3">
+			  
+			  <div class="social">
+				   <a href="#"><span class="fa fa-facebook"></span></a>
+				   <a href="#"><span class="fa fa-twitter"></span></a>
+				   <a href="#"><span class="fa fa-instagram"></span></a>
+
+			  </div>
+		 </div>
+	</div>
+</footer>
+
+
+
+</html>
