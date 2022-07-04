@@ -1,0 +1,101 @@
+.footer{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	margin-top:1px;
+}
+
+.main-content{
+	display: flex;
+	font: 15px Arial, sans-serif;
+	z-index:10;
+	height:200px;
+	justify-content: center;
+	
+
+}
+
+.main-content .box1{
+	
+	padding: 14px 46px 0px 0px;
+    margin: 42px 0px 0px 0px;
+	font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+	text-align:center ;
+	
+}
+
+.main-content .box2{
+	display:flex;
+	padding:10px 0px;
+	margin: 50px 239px 0px 0;
+	line-height:32px;
+	justify-content: space-evenly;
+	color:white;
+}
+.box2 .foot{
+	padding:14px 10px;
+}
+
+.main-content .box3{
+	padding: 49px 5px;
+	line-height:1px;
+	margin:20px 100px 0 0;
+
+}
+
+
+.right .social a{
+	color: rgb(255, 255, 255);
+}
+
+.right .social a span{
+	height:30px;
+	width:30px;
+    background:#1a1a1a;
+    line-height:30px;
+	text-align:center;
+	font-size:18px;
+	border-radius:5px;
+	transition:0.3s;
+}
+
+
+.right .social a span:hover{
+	background: orange;
+}
+
+.left a:link{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.left a:visited{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.left a:hover{
+	color: rgb(133, 113, 75);
+	text-decoration: none;
+}
+
+.center a:link{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.center a:visited{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.center a:hover{
+	color: rgb(122, 100, 59);
+	text-decoration: none;
+}
+
+
+	
+	

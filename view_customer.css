@@ -1,0 +1,54 @@
+.wrapper{
+	font-size:23px;
+	color:black;
+	opacity:0.9;
+	background-color: #fffa8c;
+	width: 900px;
+	height: 748px;
+	padding:20px;
+  font-family: 'Architects Daughter', cursive;
+	margin: 18px auto 0;
+	box-shadow: 5px 5px 45px;
+}
+
+.contact{
+	width:100%;
+	font-family: 'Actor', sans-serif;
+	margin-left:none;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size:30px;
+	
+}
+
+#btn1{
+	
+  border: none;
+  border-radius: 10px;
+  color: Black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  width:20%;
+  cursor: pointer;
+	
+
+
+}
+
+#btn2{
+	
+  border: none;
+  border-radius: 10px;
+  color: Black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  width:20%;
+  cursor: pointer;
+	
+
+
+}
+
+
